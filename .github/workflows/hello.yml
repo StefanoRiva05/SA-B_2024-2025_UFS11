@@ -7,7 +7,6 @@ jobs:
     steps: 
       - uses: actions/checkout@v4  
       - run: ls
-      - run: sudo apt update
       - run: pwd
       - run: ls -la  
       - run: java -version   
