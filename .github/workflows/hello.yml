@@ -15,6 +15,4 @@ jobs:
       - run: pwd 
         working-directory: template-progetto
       - run: mvn install
-        working-directory: template-progetto
-      - run: java -jar /home/runner/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-SNAPSHOT.jar
-      
+        working-directory: template-progetto      
