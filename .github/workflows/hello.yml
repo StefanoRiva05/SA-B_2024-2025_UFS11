@@ -11,5 +11,7 @@ jobs:
       - run: ls -la  
       - run: java -version 
       - run: cd template-progetto
+      - run: ls
+      - run: pwd
       - run: mvn install
       
