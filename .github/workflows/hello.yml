@@ -9,5 +9,7 @@ jobs:
       - run: ls
       - run: pwd
       - run: ls -la  
-      - run: java -version   
+      - run: java -version 
+      - run: cd template-progetto
+      - run: mvn install
       
