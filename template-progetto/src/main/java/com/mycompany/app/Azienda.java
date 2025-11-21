@@ -22,6 +22,10 @@ public class Azienda {
         return azienda;
     }
 
+    public String getNomeAzienda() {
+        return nomeAzienda;
+    }
+
     public void aggiungiDipendente(Dipendente dipendente) {
         listaDipendenti.add(dipendente);
     }
